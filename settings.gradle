@@ -1,0 +1,9 @@
+rootProject.name = 'mas-diagnostics-services'
+
+include 'application'
+include 'domain'
+include 'infrastructure'
+
+project(':application').projectDir = file('project/application')
+project(':domain').projectDir = file('project/domain')
+project(':infrastructure').projectDir = file('project/infrastructure')

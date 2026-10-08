@@ -3,9 +3,11 @@ plugins {
 }
 
 dependencies {
-    implementation project(':api')
     implementation project(':application')
     implementation project(':domain')
+
+    implementation 'pl.es8it.mas.contract:mas-diagnostics-api:1.0.0'
+    implementation 'pl.es8it.mas.contract:mas-vehicle-api:1.0.0'
 
     implementation 'org.springframework.boot:spring-boot-starter-webmvc'
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
