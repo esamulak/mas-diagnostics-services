@@ -1,13 +1,20 @@
 package pl.es8it.mas.diagnostics.infrastructure.rest;
 
 import org.springframework.http.ResponseEntity;
-import pl.es8it.mas.contract.diagnostics.LowBeamLightApi;
-import pl.es8it.mas.contract.diagnostics.dto.LowBeamLightStateDTO;
+import org.springframework.web.bind.annotation.RestController;
+import pl.es8it.mas.contract.diagnostics.VehicleApi;
+import pl.es8it.mas.contract.diagnostics.dto.LowBeamLightDTO;
 
-public class DiagnosticsController implements LowBeamLightApi {
+@RestController
+public class DiagnosticsController implements VehicleApi {
 
     @Override
-    public ResponseEntity<LowBeamLightStateDTO> getLowBeamLightState() {
+    public ResponseEntity<LowBeamLightDTO> getLowBeamLightState() {
+        return null;
+    }
+
+    @Override
+    public ResponseEntity<Void> updateLowBeamLightState(LowBeamLightDTO lowBeamLightDTO) {
         return null;
     }
 }
