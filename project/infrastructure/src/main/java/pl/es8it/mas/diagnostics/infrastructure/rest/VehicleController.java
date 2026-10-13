@@ -6,7 +6,7 @@ import pl.es8it.mas.contract.diagnostics.VehicleApi;
 import pl.es8it.mas.contract.diagnostics.dto.LowBeamLightDTO;
 
 @RestController
-public class DiagnosticsController implements VehicleApi {
+public class VehicleController implements VehicleApi {
 
     @Override
     public ResponseEntity<LowBeamLightDTO> getLowBeamLightState() {
