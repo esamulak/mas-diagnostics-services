@@ -29,7 +29,7 @@ project/                                      # packages: pl.es8it.mas.diagnosti
 - Dependencies point inwards: `infrastructure` → `application` → `domain`.
 - Use Spring and contract DTOs only in `infrastructure`.
 - Use `domain/repository` to load and save the model, `application/port/out` for any other output.
-- Classes in `application/service` implement `application/port/in`.
+- Group `application/port/in` use cases in `...Service` interfaces, implemented by `...ServiceImpl` in `application/service`.
 - Name `application/data` classes `...Input` and `...Output`.
 - Write unit tests only for application logic, without Spring.
 - Use BDDMockito for mocks in tests.
