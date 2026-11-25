@@ -21,7 +21,7 @@ Backend service for vehicle diagnostics in the MAS application.
 project/                                      # packages: pl.es8it.mas.diagnostics.<layer>
 ├── application/                              # data, port/in, port/out, service
 ├── domain/                                   # event, exception, model, predicate, repository, service
-└── infrastructure/                           # adapter/<technology> (e.g. rabbitmq, rest), config
+└── infrastructure/                           # adapter/{messaging,persistence,web}/<technology>, config
 ```
 
 ## Code style
