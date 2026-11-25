@@ -13,6 +13,7 @@ Backend service for vehicle diagnostics in the MAS application.
 - Spring Validation
 - Spring Boot Actuator
 - JUnit Jupiter
+- Mockito
 
 ## Project structure
 
