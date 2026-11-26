@@ -1,6 +1,8 @@
 dependencies {
     implementation project(':domain')
 
+    implementation 'pl.es8it.mas.core:mas-core-application:1.0-SNAPSHOT'
+
     testImplementation 'org.junit.jupiter:junit-jupiter'
     testImplementation 'org.mockito:mockito-junit-jupiter'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'

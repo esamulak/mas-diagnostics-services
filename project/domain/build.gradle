@@ -1,2 +1,3 @@
 dependencies {
+    implementation 'pl.es8it.mas.core:mas-core-domain:1.0-SNAPSHOT'
 }

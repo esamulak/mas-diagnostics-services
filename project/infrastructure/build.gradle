@@ -6,6 +6,8 @@ dependencies {
     implementation project(':application')
     implementation project(':domain')
 
+    implementation 'pl.es8it.mas.core:mas-core-infrastructure:1.0-SNAPSHOT'
+
     implementation 'pl.es8it.mas.contract:mas-diagnostics-api:1.0.0'
     implementation 'pl.es8it.mas.contract:mas-vehicle-api:1.0.0'
 
